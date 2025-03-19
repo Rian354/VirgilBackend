@@ -1,0 +1,10 @@
+# Main modules
+Flask>=2.0
+requests>=2.25.0
+langchain>=0.0.148
+faiss-cpu
+openai
+flask-cors
+PyJWT
+ollama
+langchain_ollama
