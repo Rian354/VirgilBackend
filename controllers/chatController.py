@@ -79,7 +79,7 @@ def fileLoader(path, type):
 
 
 def getVectorStore(files):
-    textSplitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=20, length_function=len,
+    textSplitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=20, length_function=len,
                                                   is_separator_regex=False)
     _docs = []
     for file in files:
