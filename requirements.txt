@@ -7,4 +7,7 @@ openai
 flask-cors
 PyJWT
 ollama
+faiss-cpu
+langchain-community
 langchain_ollama
+pypdf
